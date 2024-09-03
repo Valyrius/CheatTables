@@ -62,31 +62,6 @@
       </Offsets>
     </CheatEntry>
   </CheatEntries>
-  <CheatCodes>
-    <CodeEntry>
-      <Description>Change of cmp rdi,rbp</Description>
-      <AddressString>Cyberpunk2077.exe+37C059</AddressString>
-      <Before>
-        <Byte>02</Byte>
-        <Byte>48</Byte>
-        <Byte>8D</Byte>
-        <Byte>2C</Byte>
-        <Byte>C7</Byte>
-      </Before>
-      <Actual>
-        <Byte>48</Byte>
-        <Byte>3B</Byte>
-        <Byte>FD</Byte>
-      </Actual>
-      <After>
-        <Byte>74</Byte>
-        <Byte>23</Byte>
-        <Byte>48</Byte>
-        <Byte>8B</Byte>
-        <Byte>37</Byte>
-      </After>
-    </CodeEntry>
-  </CheatCodes>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
 </Comments>
