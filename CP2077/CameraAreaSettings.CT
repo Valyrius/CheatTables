@@ -20,7 +20,7 @@ end
 
 local function main()
     -- https://github.com/WopsS/RED4ext.SDK/blob/master/include/RED4ext/Scripting/Natives/Generated/CameraAreaSettings.hpp
-    local ISOAddress = getAddress('[[[[[["Cyberpunk2077.exe"+0x0324ED18]+10]+18]+120]+40]+40]+54')
+    local ISOAddress = getAddress('[[[[[["Cyberpunk2077.exe"+0x03220CF8]+10]+18]+120]+40]+40]+54')
     local fStopAddress = getAddress(ISOAddress+0x08)
     local shutterTimeAddress = getAddress(ISOAddress+0x04)
     local automatedAddress = getAddress(ISOAddress-0x04)
